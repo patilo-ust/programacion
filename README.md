@@ -57,7 +57,9 @@ match dia:
     case _: # Caso por defecto (Wildcard)
         print("Otro día")
 
-Regla de Oro: > * Usa if-else para medir (rangos, comparaciones).
-                  Usa match-case para elegir (opciones fijas, menús).
+Regla de Oro: > 
+* Usa if-else para medir (rangos, comparaciones).
+* Usa match-case para elegir (opciones fijas, menús).
+
 
 
