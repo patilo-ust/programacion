@@ -50,11 +50,11 @@ Introducido en Python 3.10, es el equivalente al switch de otros lenguajes. Es i
 dia = "Lunes"
 
 match dia:
-    case "Lunes":
+    * case "Lunes":
         print("Inicio de semana")
-    case "Viernes":
+    * case "Viernes":
         print("Casi fin de semana")
-    case _: # Caso por defecto (Wildcard)
+    * case _: # Caso por defecto (Wildcard)
         print("Otro día")
 
 Regla de Oro: > 
