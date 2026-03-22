@@ -36,26 +36,28 @@ En Python, el programa puede elegir diferentes caminos según las condiciones qu
 1. Sentencias Condicionales (if-elif-else)
 Se utiliza para evaluar rangos o condiciones lógicas (mayor que, menor que, comparaciones múltiples).
 
-edad = 18
+*edad = 18
 
-if edad >= 18:
+* if edad >= 18:
     print("Mayor de edad")
-elif edad >= 13:
+* elif edad >= 13:
     print("Adolescente")
-else:
+* else:
     print("Menor de edad")
 
 # Selector de Casos (match-case)
-Introducido en Python 3.10, es el equivalente al switch de otros lenguajes. Es ideal para comparar una sola variable contra valores exactos.
-dia = "Lunes"
+Introducido en Python 3.10, es el equivalente al switch de otros lenguajes. 
+Es ideal para comparar una sola variable contra valores exactos.
+
+* dia = "Lunes"
 
 match dia:
-    * case "Lunes":
-        print("Inicio de semana")
-    * case "Viernes":
-        print("Casi fin de semana")
-    * case _: # Caso por defecto (Wildcard)
-        print("Otro día")
+* case "Lunes":
+    print("Inicio de semana")
+* case "Viernes":
+    print("Casi fin de semana")
+* case _: # Caso por defecto (Wildcard)
+    print("Otro día")
 
 Regla de Oro: > 
 * Usa if-else para medir (rangos, comparaciones).
